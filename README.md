@@ -28,7 +28,9 @@ The analysis of the election shows that:
 Upon completion of this audit, I believe this script can be used for any election. I would like to describe to the election commission two examples for modifying the script to enable it to be used again.
 
 1. The variables that represent the counties can be applied to any type of location that we receive for a particular ballot ID. This means that geographic information such as neighborhood, city, state, or region can be analyzed at this level. By duplicating the way that the 'county_options' variable is treated, we can easily modify the script to include more geographic information to see how voters from each location voted. This is helpful because it would cover any magnitude of election.
-![image1](/resources/results.png)
 
-2. For this election audit, I was given very basic information: ballot ID, county, and candidate. For other elections, more data may be gathered which will allow for a wider analysis. If given more demographic information on each voter, this script can easily be modified by adding more variables. For example, I could add a variable to represent the age of the voter. I would be able to analyze the election results from multiple angles.
+![Results](Resources/results.png)
 
+2. For this election audit, I was given very basic information: ballot ID, county, and candidate. For other elections, more data may be gathered which will allow for a wider analysis. If given more demographic information on each voter, this script can easily be modified by adding more variables. For example, I could add a list of age ranges of the voters and a dictionary of how many voters are in each age range. I would be able to analyze the election results from multiple angles.
+
+![Lists and Dictionaries](Resources/create_list_and_dictionary.png)
